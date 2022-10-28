@@ -84,4 +84,8 @@ h2 {
     footer{
         width: 80%;
     }
+
+    h2{
+        font-size: 16px;
+    }
 }
