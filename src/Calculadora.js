@@ -52,8 +52,7 @@ function calcularIMC(){
 
       </div>
 
-      <h2>{mensagem}</h2>      
-      <footer>programmed by © Ney Marlon</footer>
-    </div>
+      <h2>{mensagem}</h2>
+      </div>
   )
 }
