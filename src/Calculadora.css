@@ -8,7 +8,7 @@
 }
 
 h1{
-    font-size: 50px;
+    font-size: 75px;
 }
 
 span{
@@ -47,4 +47,41 @@ span{
 
 h2 {
     margin-top: 24px;
+}
+
+footer{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 55px;
+    }
+    
+    span{
+        font-size: 80%;
+    }
+
+    .area-input{
+        width: 80%;
+    }
+
+    .area-input input{
+        font-size: 80%;
+    }
+    
+    .area-input button{
+        font-size: 80%;
+    }
+
+    footer{
+        width: 80%;
+    }
 }
